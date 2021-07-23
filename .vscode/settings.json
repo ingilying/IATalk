@@ -1,0 +1,16 @@
+{
+    "cmake.buildTask": true,
+    "cmake.configureEnvironment": {
+        "CMAKE_PREFIX_PATH": "/home/ingil/Qt5.12.9/5.12.9/gcc_64/lib/cmake/"
+    },
+    "cmake.debugConfig": {
+        "environment": [{
+            "name":"Path",
+            "value": "${env:Path};/home/ingil/Qt5.12.9/5.12.9/gcc_64/bin/"
+        }]
+    },
+    "qttools.creator": "/Qt5.12.9/Tools/QtCreator/bin/qtcreator",
+    "files.associations": {
+        "iostream": "cpp"
+    },
+}

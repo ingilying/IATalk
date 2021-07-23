@@ -19,6 +19,6 @@ LoginSetDialog::~LoginSetDialog()
 void LoginSetDialog::closeEvent(QCloseEvent *event)
 {
     emit LSetClose(ui->edit_ip->text(),ui->edit_port->text().toInt());
-    QMessageBox::information(nullptr," ",ui->edit_ip->text()+"\n"+ui->edit_port->text(),QMessageBox::Ok);
+   // QMessageBox::information(nullptr," ",ui->edit_ip->text()+"\n"+ui->edit_port->text(),QMessageBox::Ok);
     event->accept();
 }

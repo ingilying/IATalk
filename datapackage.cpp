@@ -1,5 +1,14 @@
+
+#define IA_DEBUG
+#ifdef IA_DEBUG
+#include <QTextStream>
+QTextStream qin(stdin),qout(stdout);
+#endif //IA DEBUG
+
 #include "datapackage.h"
 #include <QBuffer>
+
+
 
 DataPackage::DataPackage(QObject *parent):QObject(parent)
 {
@@ -32,5 +41,8 @@ QByteArray DataPackage::ToByteArray()
     QDataStream stream(&raw,QIODevice::WriteOnly);
     stream<<type<<len;
     stream.writeRawData(*data,len);
+    qout<<"[DataPck]:"<<*data<<endl;
+    //std::cout<<raw.data()<<std::endl;
+    qout<<"[DataPack]:"<<raw<<endl;
     return raw;
 }

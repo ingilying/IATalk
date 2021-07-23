@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.5)
 
 project(iaclient LANGUAGES CXX)
-
+#set(CMAKE_INCLUDE_CURRENT_DIR "/home/ingil/Qt5.12.9/5.12.9/gcc_64/lib/cmake/")
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
-
+set(CMAKE_PREFIX_PATH "/home/ingil/Qt5.12.9/5.12.9/gcc_64/lib/cmake/")
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
