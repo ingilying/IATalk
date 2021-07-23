@@ -24,7 +24,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 #    endif()
 #endif()
 
-find_package(Qt5 COMPONENTS Widgets LinguistTools REQUIRED)
+find_package(Qt5 COMPONENTS Widgets Network LinguistTools REQUIRED)
 
 set(TS_FILES iaclient_zh_CN.ts)
 
@@ -32,20 +32,31 @@ if(ANDROID)
   add_library(iaclient SHARED
     main.cpp
     mainwindow.cpp
+    logindialog.cpp
     mainwindow.h
+    logindialog.h
     mainwindow.ui
+    logindialog.ui
     ${TS_FILES}
   )
 else()
   add_executable(iaclient
     main.cpp
     mainwindow.cpp
+    logindialog.cpp
+    loginsetdialog.cpp
+    datapackage.cpp
     mainwindow.h
+    logindialog.h
+    loginsetdialog.h
+    datapackage.h
     mainwindow.ui
+    logindialog.ui
+    loginsetdialog.ui
     ${TS_FILES}
   )
 endif()
 
-target_link_libraries(iaclient PRIVATE Qt5::Widgets)
+target_link_libraries(iaclient PRIVATE Qt5::Widgets Qt5::Network)
 
 qt5_create_translation(QM_FILES ${CMAKE_SOURCE_DIR} ${TS_FILES})
