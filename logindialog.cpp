@@ -44,7 +44,7 @@ void LoginDialog::on_pushButton_clicked()
     socket=new QTcpSocket();
     socket->abort();
     socket->connectToHost(ip,port);
-    QMessageBox::information(nullptr," ","ip:"+ip+"\n"+port,QMessageBox::Ok);
+    //QMessageBox::information(nullptr," ","ip:"+ip+"\n"+port,QMessageBox::Ok);
     if(!socket->waitForConnected(3000))
     {
         QMessageBox::information(nullptr,"温馨提示(真·温馨)","连接服务器失败，请检查一下网络是否连通。",

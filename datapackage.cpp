@@ -41,7 +41,7 @@ QByteArray DataPackage::ToByteArray()
     QDataStream stream(&raw,QIODevice::WriteOnly);
     stream<<type<<len;
     stream.writeRawData(*data,len);
-    qout<<"[DataPck]:"<<*data<<endl;
+    qout<<"[DataPack]:"<<data<<endl;
     //std::cout<<raw.data()<<std::endl;
     qout<<"[DataPack]:"<<raw<<endl;
     return raw;
