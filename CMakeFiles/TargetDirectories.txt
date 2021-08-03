@@ -1,0 +1,4 @@
+/media/ingil/Document/iatalk/iaclient/CMakeFiles/rebuild_cache.dir
+/media/ingil/Document/iatalk/iaclient/CMakeFiles/edit_cache.dir
+/media/ingil/Document/iatalk/iaclient/CMakeFiles/iaclient.dir
+/media/ingil/Document/iatalk/iaclient/CMakeFiles/iaclient_autogen.dir

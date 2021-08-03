@@ -11,30 +11,30 @@
 				<Option working_dir="/media/ingil/Document/iatalk/iaclient"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/media/ingil/Document/iatalk/iaclient"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/media/ingil/Document/iatalk/iaclient"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="iaclient">
@@ -47,7 +47,6 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
-					<Add option="-DQT_NO_DEBUG"/>
 					<Add option="-DQT_NETWORK_LIB"/>
 					<Add directory="/media/ingil/Document/iatalk/iaclient"/>
 					<Add directory="/media/ingil/Document/iatalk/iaclient/iaclient_autogen/include"/>
@@ -58,12 +57,18 @@
 					<Add directory="/home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore"/>
 					<Add directory="/home/ingil/Qt5.12.9/5.12.9/gcc_64/./mkspecs/linux-g++"/>
 					<Add directory="/home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtNetwork"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 iaclient"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 iaclient"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="iaclient/fast">
@@ -76,7 +81,6 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
-					<Add option="-DQT_NO_DEBUG"/>
 					<Add option="-DQT_NETWORK_LIB"/>
 					<Add directory="/media/ingil/Document/iatalk/iaclient"/>
 					<Add directory="/media/ingil/Document/iatalk/iaclient/iaclient_autogen/include"/>
@@ -87,25 +91,37 @@
 					<Add directory="/home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore"/>
 					<Add directory="/home/ingil/Qt5.12.9/5.12.9/gcc_64/./mkspecs/linux-g++"/>
 					<Add directory="/home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtNetwork"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 iaclient/fast"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 iaclient/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="iaclient_autogen">
 				<Option working_dir="/media/ingil/Document/iatalk/iaclient"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 iaclient_autogen"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 iaclient_autogen"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/media/ingil/Document/iatalk/iaclient/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/media/ingil/Document/iatalk/iaclient/HttpDownload.cpp">
+			<Option target="iaclient"/>
+		</Unit>
+		<Unit filename="/media/ingil/Document/iatalk/iaclient/HttpDownload.h">
+			<Option target="iaclient"/>
+		</Unit>
 		<Unit filename="/media/ingil/Document/iatalk/iaclient/datapackage.cpp">
 			<Option target="iaclient"/>
 		</Unit>
@@ -151,7 +167,16 @@
 		<Unit filename="/media/ingil/Document/iatalk/iaclient/mainwindow.ui">
 			<Option target="iaclient"/>
 		</Unit>
+		<Unit filename="/media/ingil/Document/iatalk/iaclient/qrc_rc.cpp">
+			<Option target="iaclient"/>
+		</Unit>
+		<Unit filename="/media/ingil/Document/iatalk/iaclient/rc.qrc">
+			<Option target="iaclient"/>
+		</Unit>
 		<Unit filename="/media/ingil/Document/iatalk/iaclient/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/media/ingil/Document/iatalk/iaclient/rc.qrc">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 		<Unit filename="/media/ingil/Document/iatalk/iaclient/../../../../../home/ingil/Qt5.12.9/5.12.9/gcc_64/lib/cmake/Qt5/Qt5Config.cmake">

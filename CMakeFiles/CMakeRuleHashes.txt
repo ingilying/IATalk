@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+1dab90ea222b9bfc7c58b2ddf58eb1f8 CMakeFiles/iaclient_autogen
+4bca3c82fd045a8845404a6966d8eda5 iaclient_zh_CN.ts
+946e794379306d631a435b7465bd8a21 qrc_rc.cpp

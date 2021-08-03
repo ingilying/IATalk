@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/home/ingil/Project/iatalk/iaclient/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/ingil/Project/iatalk/iaclient/build -I/home/ingil/Project/iatalk/iaclient -I/home/ingil/Project/iatalk/iaclient/build/iaclient_autogen/include -I/home/ingil/Project/iatalk/iaclient/./Headers -I/home/ingil/Project/iatalk/iaclient/./Sources -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtGui -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/./mkspecs/linux-g++ -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtNetwork -g -g -fPIC -std=gnu++17 -o CMakeFiles/iaclient.dir/iaclient_autogen/mocs_compilation.cpp.o -c /home/ingil/Project/iatalk/iaclient/build/iaclient_autogen/mocs_compilation.cpp",
+  "file": "/home/ingil/Project/iatalk/iaclient/build/iaclient_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/ingil/Project/iatalk/iaclient/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/ingil/Project/iatalk/iaclient/build -I/home/ingil/Project/iatalk/iaclient -I/home/ingil/Project/iatalk/iaclient/build/iaclient_autogen/include -I/home/ingil/Project/iatalk/iaclient/./Headers -I/home/ingil/Project/iatalk/iaclient/./Sources -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtGui -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/./mkspecs/linux-g++ -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtNetwork -g -g -fPIC -std=gnu++17 -o CMakeFiles/iaclient.dir/Sources/Chat.cpp.o -c /home/ingil/Project/iatalk/iaclient/Sources/Chat.cpp",
+  "file": "/home/ingil/Project/iatalk/iaclient/Sources/Chat.cpp"
+},
+{
+  "directory": "/home/ingil/Project/iatalk/iaclient/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/ingil/Project/iatalk/iaclient/build -I/home/ingil/Project/iatalk/iaclient -I/home/ingil/Project/iatalk/iaclient/build/iaclient_autogen/include -I/home/ingil/Project/iatalk/iaclient/./Headers -I/home/ingil/Project/iatalk/iaclient/./Sources -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtGui -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/./mkspecs/linux-g++ -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtNetwork -g -g -fPIC -std=gnu++17 -o CMakeFiles/iaclient.dir/Sources/ChatMessage.cpp.o -c /home/ingil/Project/iatalk/iaclient/Sources/ChatMessage.cpp",
+  "file": "/home/ingil/Project/iatalk/iaclient/Sources/ChatMessage.cpp"
+},
+{
+  "directory": "/home/ingil/Project/iatalk/iaclient/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/ingil/Project/iatalk/iaclient/build -I/home/ingil/Project/iatalk/iaclient -I/home/ingil/Project/iatalk/iaclient/build/iaclient_autogen/include -I/home/ingil/Project/iatalk/iaclient/./Headers -I/home/ingil/Project/iatalk/iaclient/./Sources -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtGui -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/./mkspecs/linux-g++ -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtNetwork -g -g -fPIC -std=gnu++17 -o CMakeFiles/iaclient.dir/Sources/HttpDownload.cpp.o -c /home/ingil/Project/iatalk/iaclient/Sources/HttpDownload.cpp",
+  "file": "/home/ingil/Project/iatalk/iaclient/Sources/HttpDownload.cpp"
+},
+{
+  "directory": "/home/ingil/Project/iatalk/iaclient/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/ingil/Project/iatalk/iaclient/build -I/home/ingil/Project/iatalk/iaclient -I/home/ingil/Project/iatalk/iaclient/build/iaclient_autogen/include -I/home/ingil/Project/iatalk/iaclient/./Headers -I/home/ingil/Project/iatalk/iaclient/./Sources -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtGui -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/./mkspecs/linux-g++ -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtNetwork -g -g -fPIC -std=gnu++17 -o CMakeFiles/iaclient.dir/Sources/datapackage.cpp.o -c /home/ingil/Project/iatalk/iaclient/Sources/datapackage.cpp",
+  "file": "/home/ingil/Project/iatalk/iaclient/Sources/datapackage.cpp"
+},
+{
+  "directory": "/home/ingil/Project/iatalk/iaclient/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/ingil/Project/iatalk/iaclient/build -I/home/ingil/Project/iatalk/iaclient -I/home/ingil/Project/iatalk/iaclient/build/iaclient_autogen/include -I/home/ingil/Project/iatalk/iaclient/./Headers -I/home/ingil/Project/iatalk/iaclient/./Sources -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtGui -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/./mkspecs/linux-g++ -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtNetwork -g -g -fPIC -std=gnu++17 -o CMakeFiles/iaclient.dir/Sources/logindialog.cpp.o -c /home/ingil/Project/iatalk/iaclient/Sources/logindialog.cpp",
+  "file": "/home/ingil/Project/iatalk/iaclient/Sources/logindialog.cpp"
+},
+{
+  "directory": "/home/ingil/Project/iatalk/iaclient/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/ingil/Project/iatalk/iaclient/build -I/home/ingil/Project/iatalk/iaclient -I/home/ingil/Project/iatalk/iaclient/build/iaclient_autogen/include -I/home/ingil/Project/iatalk/iaclient/./Headers -I/home/ingil/Project/iatalk/iaclient/./Sources -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtGui -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/./mkspecs/linux-g++ -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtNetwork -g -g -fPIC -std=gnu++17 -o CMakeFiles/iaclient.dir/Sources/loginsetdialog.cpp.o -c /home/ingil/Project/iatalk/iaclient/Sources/loginsetdialog.cpp",
+  "file": "/home/ingil/Project/iatalk/iaclient/Sources/loginsetdialog.cpp"
+},
+{
+  "directory": "/home/ingil/Project/iatalk/iaclient/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/ingil/Project/iatalk/iaclient/build -I/home/ingil/Project/iatalk/iaclient -I/home/ingil/Project/iatalk/iaclient/build/iaclient_autogen/include -I/home/ingil/Project/iatalk/iaclient/./Headers -I/home/ingil/Project/iatalk/iaclient/./Sources -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtGui -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/./mkspecs/linux-g++ -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtNetwork -g -g -fPIC -std=gnu++17 -o CMakeFiles/iaclient.dir/Sources/main.cpp.o -c /home/ingil/Project/iatalk/iaclient/Sources/main.cpp",
+  "file": "/home/ingil/Project/iatalk/iaclient/Sources/main.cpp"
+},
+{
+  "directory": "/home/ingil/Project/iatalk/iaclient/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/ingil/Project/iatalk/iaclient/build -I/home/ingil/Project/iatalk/iaclient -I/home/ingil/Project/iatalk/iaclient/build/iaclient_autogen/include -I/home/ingil/Project/iatalk/iaclient/./Headers -I/home/ingil/Project/iatalk/iaclient/./Sources -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtGui -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/./mkspecs/linux-g++ -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtNetwork -g -g -fPIC -std=gnu++17 -o CMakeFiles/iaclient.dir/Sources/mainwindow.cpp.o -c /home/ingil/Project/iatalk/iaclient/Sources/mainwindow.cpp",
+  "file": "/home/ingil/Project/iatalk/iaclient/Sources/mainwindow.cpp"
+},
+{
+  "directory": "/home/ingil/Project/iatalk/iaclient/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/ingil/Project/iatalk/iaclient/build -I/home/ingil/Project/iatalk/iaclient -I/home/ingil/Project/iatalk/iaclient/build/iaclient_autogen/include -I/home/ingil/Project/iatalk/iaclient/./Headers -I/home/ingil/Project/iatalk/iaclient/./Sources -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtWidgets -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtGui -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/./mkspecs/linux-g++ -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtNetwork -g -g -fPIC -std=gnu++17 -o CMakeFiles/iaclient.dir/qrc_rc.cpp.o -c /home/ingil/Project/iatalk/iaclient/build/qrc_rc.cpp",
+  "file": "/home/ingil/Project/iatalk/iaclient/build/qrc_rc.cpp"
+}
+]
