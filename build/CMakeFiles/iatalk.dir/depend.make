@@ -4,6 +4,8 @@
 CMakeFiles/iatalk.dir/Sources/database.cpp.o: ../Headers/database.h
 CMakeFiles/iatalk.dir/Sources/database.cpp.o: ../Sources/database.cpp
 CMakeFiles/iatalk.dir/Sources/database.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QDebug
+CMakeFiles/iatalk.dir/Sources/database.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QJsonObject
+CMakeFiles/iatalk.dir/Sources/database.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QJsonValue
 CMakeFiles/iatalk.dir/Sources/database.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QList
 CMakeFiles/iatalk.dir/Sources/database.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QObject
 CMakeFiles/iatalk.dir/Sources/database.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QVariant
@@ -32,6 +34,8 @@ CMakeFiles/iatalk.dir/Sources/database.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64
 CMakeFiles/iatalk.dir/Sources/database.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qhashfunctions.h
 CMakeFiles/iatalk.dir/Sources/database.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qiodevice.h
 CMakeFiles/iatalk.dir/Sources/database.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qiterator.h
+CMakeFiles/iatalk.dir/Sources/database.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qjsonobject.h
+CMakeFiles/iatalk.dir/Sources/database.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qjsonvalue.h
 CMakeFiles/iatalk.dir/Sources/database.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qlist.h
 CMakeFiles/iatalk.dir/Sources/database.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qlocale.h
 CMakeFiles/iatalk.dir/Sources/database.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qlogging.h
@@ -176,6 +180,7 @@ CMakeFiles/iatalk.dir/Sources/iaserver.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64
 CMakeFiles/iatalk.dir/Sources/iaserver.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QObject
 CMakeFiles/iatalk.dir/Sources/iaserver.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QSettings
 CMakeFiles/iatalk.dir/Sources/iaserver.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QTextStream
+CMakeFiles/iatalk.dir/Sources/iaserver.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QThread
 CMakeFiles/iatalk.dir/Sources/iaserver.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QTimer
 CMakeFiles/iatalk.dir/Sources/iaserver.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qalgorithms.h
 CMakeFiles/iatalk.dir/Sources/iaserver.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qarraydata.h
@@ -247,6 +252,7 @@ CMakeFiles/iatalk.dir/Sources/iaserver.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64
 CMakeFiles/iatalk.dir/Sources/iaserver.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qsystemdetection.h
 CMakeFiles/iatalk.dir/Sources/iaserver.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qtcore-config.h
 CMakeFiles/iatalk.dir/Sources/iaserver.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qtextstream.h
+CMakeFiles/iatalk.dir/Sources/iaserver.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qthread.h
 CMakeFiles/iatalk.dir/Sources/iaserver.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qtimer.h
 CMakeFiles/iatalk.dir/Sources/iaserver.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qtypeinfo.h
 CMakeFiles/iatalk.dir/Sources/iaserver.cpp.o: /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qvariant.h

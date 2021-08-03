@@ -7,6 +7,7 @@
 #include <QFile>
 #include <QCoreApplication>
 #include <QDateTime>
+#include <QThread>
 #include "datapackage.h"
 
 IAServer::IAServer(QObject *parent) : QObject(parent) ,qin(stdin),qout(stdout),users(),waits_list()
@@ -225,11 +226,13 @@ void IAServer::newMessage(QByteArray msg,int len,IATcpClient *client)
                     qout<<"[Main]:Message writen."<<endl;
                 }else if (context=="chats")
                 {
+                    qout<<"[Main]:This is a chat message."<<endl;
                     QJsonObject joj;
                     QJsonDocument jdoc;
                     QByteArray bytes;
                     DataPackage pack;
                     auto ary=sql_db.GetFriends(client->user.index);
+                    //QThread::sleep(30);
                     for(int id : ary)
                     {
                         auto ay=sql_db.GetChats(client->user.index,id,1);

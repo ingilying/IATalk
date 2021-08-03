@@ -5,6 +5,8 @@ CMakeFiles/iatalk.dir/Sources/database.cpp.o
  ../Headers/database.h
  /home/ingil/Project/iatalk/iatalk/Sources/database.cpp
  /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QDebug
+ /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QJsonObject
+ /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QJsonValue
  /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QList
  /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QObject
  /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QVariant
@@ -33,6 +35,8 @@ CMakeFiles/iatalk.dir/Sources/database.cpp.o
  /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qhashfunctions.h
  /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qiodevice.h
  /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qiterator.h
+ /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qjsonobject.h
+ /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qjsonvalue.h
  /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qlist.h
  /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qlocale.h
  /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qlogging.h
@@ -177,6 +181,7 @@ CMakeFiles/iatalk.dir/Sources/iaserver.cpp.o
  /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QObject
  /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QSettings
  /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QTextStream
+ /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QThread
  /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/QTimer
  /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qalgorithms.h
  /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qarraydata.h
@@ -248,6 +253,7 @@ CMakeFiles/iatalk.dir/Sources/iaserver.cpp.o
  /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qsystemdetection.h
  /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qtcore-config.h
  /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qtextstream.h
+ /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qthread.h
  /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qtimer.h
  /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qtypeinfo.h
  /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore/qvariant.h

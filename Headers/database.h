@@ -16,8 +16,11 @@ struct chat{
     {
         QJsonObject jobj;
         jobj.insert("type","msg");
+        jobj.insert("rtype","user");
         jobj.insert("sender",QString::number(user_id));
+        jobj.insert("recver",QString::number(rec_id));
         jobj.insert("content",context);
+        return jobj;
     }
 };
 

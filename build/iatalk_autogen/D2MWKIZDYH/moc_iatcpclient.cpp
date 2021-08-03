@@ -63,8 +63,8 @@ static const uint qt_meta_data_IATcpClient[] = {
        3,    1,   39,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       5,    0,   42,    2, 0x09 /* Protected */,
-       6,    0,   43,    2, 0x09 /* Protected */,
+       5,    0,   42,    2, 0x0a /* Public */,
+       6,    0,   43,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::QByteArray, QMetaType::Int,    2,    2,

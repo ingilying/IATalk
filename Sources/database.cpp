@@ -53,10 +53,10 @@ QList<chat> DataBase::GetChats(int uid1,int uid2,int type)
 {
     QList<chat> chats;
     if(type==1)
-        sq.exec(QString("select * from(select * from chat_record "
-        "where (user_id=")+uid2+"and rec_id="+uid1+") or (user_id="+uid1+" and rec_id="+uid2+")"
+        sq.exec(QString("select * from  (select * from chat_record "
+        "where (user_id=")+QString::number(uid2)+" and rec_id="+QString::number(uid1)+") or (user_id="+QString::number(uid1)+" and rec_id="+QString::number(uid2)+")"
         "order by send_time desc)temp group by send_time desc;");
-    else sq.exec("select * from(select * from chat_record where rec_type=2 and rec_id="+uid2+QString(")or"));
+    else sq.exec("select * from(select * from chat_record where rec_type=2 and rec_id="+QString::number(uid2)+QString(")or"));
     while(sq.next())
     {
         chat tp;
@@ -68,6 +68,7 @@ QList<chat> DataBase::GetChats(int uid1,int uid2,int type)
         tp.send_time=sq.value("send_time").toInt();
         chats.append(tp);
     }
+    qDebug()<<sq.lastError().text()<<endl;
     return chats;
 }
 
