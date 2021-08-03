@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/ingil/Project/iatalk/iatalk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -I/home/ingil/Project/iatalk/iatalk/build -I/home/ingil/Project/iatalk/iatalk -I/home/ingil/Project/iatalk/iatalk/build/iatalk_autogen/include -I/home/ingil/Project/iatalk/iatalk/./Headers -I/home/ingil/Project/iatalk/iatalk/./Sources -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/./mkspecs/linux-g++ -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtNetwork -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtSql -g -fPIC -std=gnu++17 -o CMakeFiles/iatalk.dir/iatalk_autogen/mocs_compilation.cpp.o -c /home/ingil/Project/iatalk/iatalk/build/iatalk_autogen/mocs_compilation.cpp",
+  "file": "/home/ingil/Project/iatalk/iatalk/build/iatalk_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/ingil/Project/iatalk/iatalk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -I/home/ingil/Project/iatalk/iatalk/build -I/home/ingil/Project/iatalk/iatalk -I/home/ingil/Project/iatalk/iatalk/build/iatalk_autogen/include -I/home/ingil/Project/iatalk/iatalk/./Headers -I/home/ingil/Project/iatalk/iatalk/./Sources -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/./mkspecs/linux-g++ -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtNetwork -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtSql -g -fPIC -std=gnu++17 -o CMakeFiles/iatalk.dir/Sources/database.cpp.o -c /home/ingil/Project/iatalk/iatalk/Sources/database.cpp",
+  "file": "/home/ingil/Project/iatalk/iatalk/Sources/database.cpp"
+},
+{
+  "directory": "/home/ingil/Project/iatalk/iatalk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -I/home/ingil/Project/iatalk/iatalk/build -I/home/ingil/Project/iatalk/iatalk -I/home/ingil/Project/iatalk/iatalk/build/iatalk_autogen/include -I/home/ingil/Project/iatalk/iatalk/./Headers -I/home/ingil/Project/iatalk/iatalk/./Sources -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/./mkspecs/linux-g++ -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtNetwork -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtSql -g -fPIC -std=gnu++17 -o CMakeFiles/iatalk.dir/Sources/datapackage.cpp.o -c /home/ingil/Project/iatalk/iatalk/Sources/datapackage.cpp",
+  "file": "/home/ingil/Project/iatalk/iatalk/Sources/datapackage.cpp"
+},
+{
+  "directory": "/home/ingil/Project/iatalk/iatalk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -I/home/ingil/Project/iatalk/iatalk/build -I/home/ingil/Project/iatalk/iatalk -I/home/ingil/Project/iatalk/iatalk/build/iatalk_autogen/include -I/home/ingil/Project/iatalk/iatalk/./Headers -I/home/ingil/Project/iatalk/iatalk/./Sources -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/./mkspecs/linux-g++ -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtNetwork -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtSql -g -fPIC -std=gnu++17 -o CMakeFiles/iatalk.dir/Sources/iaserver.cpp.o -c /home/ingil/Project/iatalk/iatalk/Sources/iaserver.cpp",
+  "file": "/home/ingil/Project/iatalk/iatalk/Sources/iaserver.cpp"
+},
+{
+  "directory": "/home/ingil/Project/iatalk/iatalk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -I/home/ingil/Project/iatalk/iatalk/build -I/home/ingil/Project/iatalk/iatalk -I/home/ingil/Project/iatalk/iatalk/build/iatalk_autogen/include -I/home/ingil/Project/iatalk/iatalk/./Headers -I/home/ingil/Project/iatalk/iatalk/./Sources -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/./mkspecs/linux-g++ -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtNetwork -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtSql -g -fPIC -std=gnu++17 -o CMakeFiles/iatalk.dir/Sources/iatcpclient.cpp.o -c /home/ingil/Project/iatalk/iatalk/Sources/iatcpclient.cpp",
+  "file": "/home/ingil/Project/iatalk/iatalk/Sources/iatcpclient.cpp"
+},
+{
+  "directory": "/home/ingil/Project/iatalk/iatalk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -I/home/ingil/Project/iatalk/iatalk/build -I/home/ingil/Project/iatalk/iatalk -I/home/ingil/Project/iatalk/iatalk/build/iatalk_autogen/include -I/home/ingil/Project/iatalk/iatalk/./Headers -I/home/ingil/Project/iatalk/iatalk/./Sources -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/./mkspecs/linux-g++ -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtNetwork -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtSql -g -fPIC -std=gnu++17 -o CMakeFiles/iatalk.dir/Sources/iatcpserver.cpp.o -c /home/ingil/Project/iatalk/iatalk/Sources/iatcpserver.cpp",
+  "file": "/home/ingil/Project/iatalk/iatalk/Sources/iatcpserver.cpp"
+},
+{
+  "directory": "/home/ingil/Project/iatalk/iatalk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -I/home/ingil/Project/iatalk/iatalk/build -I/home/ingil/Project/iatalk/iatalk -I/home/ingil/Project/iatalk/iatalk/build/iatalk_autogen/include -I/home/ingil/Project/iatalk/iatalk/./Headers -I/home/ingil/Project/iatalk/iatalk/./Sources -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtCore -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/./mkspecs/linux-g++ -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtNetwork -isystem /home/ingil/Qt5.12.9/5.12.9/gcc_64/include/QtSql -g -fPIC -std=gnu++17 -o CMakeFiles/iatalk.dir/Sources/main.cpp.o -c /home/ingil/Project/iatalk/iatalk/Sources/main.cpp",
+  "file": "/home/ingil/Project/iatalk/iatalk/Sources/main.cpp"
+}
+]
